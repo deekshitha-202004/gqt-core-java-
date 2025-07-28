@@ -1,25 +1,25 @@
-/*}
+
 /**
- * *                   * 
-*                   * 
-*                   * 
-*                   * 
-*                   * 
-*                   * 
-  *               *   
-    *           *     
-      *       *       
-        *   *         
-          *          
+ *           *           
+        * *           
+      *   *           
+    *     *           
+  *       *           
+*         *           
+          *           
+          *           
+          *           
+          *           
+* * * * * * * * * * *  
  */
 package com.gqt.corejava.patterns;
 import java.util.Scanner;
 /**
  * @author
- * @category patterns
+ * @categort patterns
  * @description this is an example for conditional patterns
  */
-public class patternv {
+public class pattern61  {
 
 	/**
 	 * @param args
@@ -31,7 +31,7 @@ public class patternv {
 		int n=sc.nextInt();
 		for(int i=0;i<n;i++) {
 			for(int j=0;j<n;j++) {
-			  if( (j==0 && i<=n/2) || (j==n-1 && i<=n/2) || i+j==(n-1)+n/2 || i-j==n/2 ){
+			  if(i+j==n/2 || j==n/2 || i==n-1){
 				System.out.print("* ");
 			}
 			  else {

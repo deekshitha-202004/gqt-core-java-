@@ -1,10 +1,16 @@
 
 /**
- *   
- *   
- *   
- *   
- *   
+ * *                   * 
+  *               *   
+    *           *     
+      *       *       
+        *   *         
+          *           
+          *           
+          *           
+          *           
+          *           
+          *            
  */
 package com.gqt.corejava.patterns;
 import java.util.Scanner;
