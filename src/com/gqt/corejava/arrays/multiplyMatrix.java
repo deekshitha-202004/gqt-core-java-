@@ -7,7 +7,7 @@ class multiplyMatrix{
 	void createMatrix() {
 		System.out.println("Enter the row size : ");
 		row=sc.nextInt();
-		System.out.println("Enter the column    size : ");
+		System.out.println("Enter the column   "+ " size : ");
 		col=sc.nextInt();
 		arr1=new int[row][col];
 		arr2=new int [row][col];
