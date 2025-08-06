@@ -1,4 +1,4 @@
-package com.gqt.corejava.strings;
+ package com.gqt.corejava.strings;
 
 import java.util.Scanner;
 
